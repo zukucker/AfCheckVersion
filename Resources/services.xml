@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="af_check_version.commands.check_version" class="AfCheckVersion\Commands\CheckVersion">
+            <tag name="console.command" command="check:version"/>
+        </service>
+    </services>
+</container>
