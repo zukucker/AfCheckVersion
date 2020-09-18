@@ -22,7 +22,7 @@ class CheckVersion extends ShopwareCommand
             $release = Shopware()->Kernel()->getRelease();
             $version = $release['version'];
             $rev = $release['revision'];
-            $output->writeln("Version: " . $version . "\n" . "Rev.: " . $rev);
+            $output->writeln("Version : " . $version . "\n" . "Rev. : " . $rev);
         }
 }
 
